@@ -277,6 +277,15 @@ ul#nav li.current a { color: #F06000; }
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
+   border-bottom: 1px solid #11ABB0;
+
+}
+
+.info1{
+  font: 16px/24px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
 }
 #resume .info span {
    margin-right: 5px;
@@ -376,10 +385,10 @@ ul#nav li.current a { color: #F06000; }
   -moz-animation: mongo 2s ease;
   -webkit-animation: mongo 2s ease;
 }
-.cucumber {
+.node {
   width: 90%;
-  -moz-animation: cucumber 2s ease;
-  -webkit-animation: cucumber 2s ease;
+  -moz-animation: node 2s ease;
+  -webkit-animation: node 2s ease;
 }
 .docker {
   width: 50%;
@@ -494,6 +503,13 @@ ul#nav li.current a { color: #F06000; }
  .tools{
   padding: 0 5%;
  }
+ 
+ .work-details:before {
+  content: '\02727';
+  position: absolute;
+  margin-left: -20px;
+  margin-bottom: 8px;
+}
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
