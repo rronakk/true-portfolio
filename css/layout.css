@@ -767,13 +767,13 @@ call-to-action .button {
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
-   content: "\f10d";
+   content: "\f0e1";
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: rgb(23,134,152);
 }
 
 /*	Blockquotes */
